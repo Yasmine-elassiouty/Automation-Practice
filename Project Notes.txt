@@ -1,0 +1,14 @@
+-another way to handle the chrome driver 
+
+-Make a full scenario ( for example sign in and add to cart and checkout and close the browser)
+
+-Search on POM ( page object model ) and how to apply on you project 
+
+-Search on how to use xpath using text ( for example hover on the women tab by using the women text)
+What's the benefit of this change? The random id?	
+
+-Search if we have a repeated line in our functions how we can make it called on time for example the following line in your code
+   WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+-How to reuse the created user?
+-Before class, login

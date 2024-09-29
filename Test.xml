@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test Practice">
+        <parameter name="mail" value="emai@te.i"/> <!--//change for registration -->
+        <parameter name="firstName" value="Yasmin"/>
+        <parameter name="lastName" value="Who"/>
+        <parameter name="password" value="Password123"/>
+        <parameter name="day" value="25"/>
+        <parameter name="month" value="12"/>
+        <parameter name="year" value="1990"/>
+
+        <classes>
+            <class name="Practice"/>
+<!--        <class name="Scenario"/>-->
+        </classes>
+    </test>
+</suite>
